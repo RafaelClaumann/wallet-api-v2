@@ -1,0 +1,16 @@
+tool:
+  git:
+    installations:
+    - home: "/usr/bin/git"
+      name: "Default"
+  jdk:
+    installations:
+    - home: "/usr/lib/jvm/java-11-openjdk-amd64"
+      name: "jdk-11"
+  maven:
+    installations:
+    - home: "/usr/share/maven"
+      name: "maven-3.8"
+  mavenGlobalConfig:
+    globalSettingsProvider: "standard"
+    settingsProvider: "standard"
