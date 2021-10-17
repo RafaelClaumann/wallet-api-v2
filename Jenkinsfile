@@ -5,7 +5,6 @@ pipeline {
         stage('Fetch') {
             steps {
                 echo $PWD
-                ls -l
             }
         }
     }
