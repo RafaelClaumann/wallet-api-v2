@@ -1,14 +1,17 @@
 pipeline {
     agent any
     
+    def mvnHome = tool name: 'maven-3.8', type: 'maven'
+    
     triggers {
         githubPush()
     }
     
     stages {
-        stage('Fetch') {
+        stage('RUn') {
             steps {
-                sh "java -version"
+                sh "mvn compile"
+                sh "java -jar "
                 sh "echo $PWD"
             }
         }
