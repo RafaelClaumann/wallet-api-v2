@@ -12,7 +12,7 @@ Subir a máquina ubuntu(**servidor**) executando o comando abaixo no diretório 
 vagrant up servidor
 ```
 
-Ao subir o servidor os seguintes softwares são instalados via apt-get:
+Ao subir o servidor os seguintes softwares são instalados através dos comandos no arquivo [provision.sh](https://github.com/RafaelClaumann/wallet-api-v2/blob/master/infra/provision.sh):
 - java jdk 11 (*/usr/lib/jvm/java-11-openjdk-amd64*)
 - maven (*/usr/share/maven*)
 - docker (*/var/lib/docker*)
