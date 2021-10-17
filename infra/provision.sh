@@ -18,6 +18,9 @@ echo '10.20.20.100 server.machine' >> /etc/hosts
 apt-get update
 apt-get install default-jdk -y
 
+# https://linuxize.com/post/how-to-install-apache-maven-on-ubuntu-18-04/
+apt-get install maven -y
+
 # https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-18-04-pt
 wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
 apt-add-repository "deb https://pkg.jenkins.io/debian-stable binary/"
