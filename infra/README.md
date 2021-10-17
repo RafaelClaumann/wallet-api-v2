@@ -7,6 +7,7 @@ ssh-keygen -q -t rsa -f key -N ''
 ```
 
 Subir a máquina ubuntu(**servidor**) executando o comando abaixo no diretório **infra**
+> presumindo que VirtualBox e Vagrant estejam instalados
 ```bash
 vagrant up servidor
 ```
