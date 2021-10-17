@@ -1,7 +1,9 @@
 pipeline {
     agent any
     
-    def mvnHome = tool name: 'maven-3.8', type: 'maven'
+    tools {
+        maven "maven-3.8"
+    }
     
     triggers {
         githubPush()
@@ -10,7 +12,7 @@ pipeline {
     stages {
         stage('RUn') {
             steps {
-                sh "'${mvnHome}/bin/mvn' compile"
+                sh "mvn -Dmaven.test.failure.ignore=true clean package"
                 sh "java -jar "
                 sh "echo $PWD"
             }
