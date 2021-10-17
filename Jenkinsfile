@@ -1,10 +1,15 @@
 pipeline {
     agent any
     
+    triggers {
+        githubPush()
+    }
+    
     stages {
         stage('Fetch') {
             steps {
-                echo $PWD
+                sh "java -version"
+                sh "echo $PWD"
             }
         }
     }
