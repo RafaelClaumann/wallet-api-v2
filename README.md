@@ -20,6 +20,10 @@ Requisitos de Infra:
 - [x] criação script de pipeline declarativo Jenkinsfile
 - [x] primeira execução da pipeline develop/master
 - [ ] melhorar documentação de **infra**
+    - [ ] armazenar credencial SSH(github - jenkins) no Jenkins
+    - [ ] configuração do repositório git(Webhooks & DeployKey)
+    - [ ] configuração git, java & maven no Jenkins
+    - [ ] criar pipeline e executar primeiro build
 - [ ] criar registry local no servidor 
 - [ ] upload da aplicação no registry local
 - [ ] refatorar a lógica da [wallet-api](https://github.com/RafaelClaumann/wallet-api) para wallet-api-v2
