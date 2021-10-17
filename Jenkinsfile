@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Fetch') {
             steps {
-                $PWD
+                echo $PWD
                 ls -l
             }
         }
