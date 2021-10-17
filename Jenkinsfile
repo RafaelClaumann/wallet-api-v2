@@ -9,7 +9,6 @@ pipeline {
         stage('Fetch') {
             steps {
                 sh '''
-                    chmod +x -R ${env.WORKSPACE}
                     $PWD
                     ls -l
                     '''
