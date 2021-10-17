@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('RUn') {
             steps {
-                sh "mvn compile"
+                sh "'${mvnHome}/bin/mvn' compile"
                 sh "java -jar "
                 sh "echo $PWD"
             }
