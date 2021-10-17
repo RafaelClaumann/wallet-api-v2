@@ -23,3 +23,4 @@ Conectar no servidor via SSH executando o comando a seguir no diretório **infra
 ```bash
 vagrant ssh servidor
 ```
+trigger!
