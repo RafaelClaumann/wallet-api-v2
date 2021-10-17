@@ -10,10 +10,9 @@ pipeline {
     }
     
     stages {
-        stage('RUn') {
+        stage('Build') {
             steps {
-                sh "mvn -Dmaven.test.failure.ignore=true clean package"
-                sh "java -jar "
+                sh "mvn -Dmaven.test.failure.ignore=true clean package -f  api/pom.xml"
                 sh "echo $PWD"
             }
         }
