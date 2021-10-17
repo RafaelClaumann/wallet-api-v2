@@ -20,7 +20,7 @@ Ao subir o servidor os seguintes softwares são instalados através dos comandos
 
 # Expor Jenkins
 
-Conectar no servidor via SSH executando o comando a seguir no diretório **infra**
+Conectar no **servidor ubuntu** via SSH executando o comando a seguir no diretório **infra**
 ```bash
 vagrant ssh servidor
 ```
