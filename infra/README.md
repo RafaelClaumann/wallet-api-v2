@@ -25,6 +25,7 @@ vagrant ssh servidor
 ```
 
 Instalar **unzip**, criar uma pasta para o **[ngrok](https://ngrok.com/)**, realizar **wget** e extrair o **zip** do ngrok:
+> É preciso se cadastrar no site do ngrok.
 ```bash
 mkdir ngok
 cd ngrok
