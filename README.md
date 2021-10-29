@@ -24,6 +24,7 @@ Requisitos de Infra:
     - [ ] configuração do repositório git(Webhooks & DeployKey)
     - [ ] configuração git, java & maven no Jenkins
     - [ ] criar pipeline e executar primeiro build
+- [x] build imagem docker da aplicação
 - [ ] criar registry local no servidor 
 - [ ] upload da aplicação no registry local
 - [ ] criar release v1.0.0 no github
