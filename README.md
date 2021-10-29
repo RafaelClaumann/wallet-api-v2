@@ -24,6 +24,7 @@ Requisitos de Infra:
     - [ ] configuração do repositório git(Webhooks & DeployKey)
     - [ ] configuração git, java & maven no Jenkins
     - [ ] criar pipeline e executar primeiro build
+- [x] build imagem docker da aplicação
 - [ ] criar registry local no servidor 
 - [ ] upload da aplicação no registry local
 - [ ] refatorar a lógica da [wallet-api](https://github.com/RafaelClaumann/wallet-api) para wallet-api-v2
