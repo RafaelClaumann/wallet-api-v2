@@ -27,6 +27,7 @@ Requisitos de Infra:
 - [x] build imagem docker da aplicação
 - [ ] criar registry local no servidor 
 - [ ] upload da aplicação no registry local
+- [ ] criar release v1.0.0 no github
 - [ ] refatorar a lógica da [wallet-api](https://github.com/RafaelClaumann/wallet-api) para wallet-api-v2
 - [ ] integração pipeline com SonarQube
 
